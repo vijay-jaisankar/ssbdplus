@@ -1,41 +1,13 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+# [IEEE HEALTHCOM 2023] Introducing SSBD+ Dataset with a Convolutional Pipeline for detecting Self-Stimulatory Behaviours in Children using raw videos
 
+## Project page
+The deployed project page can be found [here](https://vijay-jaisankar.github.io/ssbdplus/).
 
-Example project pages built using this template are:
-- https://www.vision.huji.ac.il/deepsim/
-- https://www.vision.huji.ac.il/3d_ads/
-- https://www.vision.huji.ac.il/ssrl_ad/
-- https://www.vision.huji.ac.il/conffusion/
+## Abstract
+```
+Conventionally, evaluation for the diagnosis of Autism spectrum disorder is done by a trained specialist through questionnaire-based formal assessments and by observation of behavioral cues under various settings to capture the early warning signs of autism. These evaluation techniques are highly subjective and their accuracy relies on the experience of the specialist. In this regard, machine learning-based methods for automated capturing of early signs of autism from the recorded videos of the children is a promising alternative. In this paper, the authors propose a novel pipelined deep learning architecture to detect certain self-stimulatory behaviors that help in the diagnosis of autism spectrum disorder (ASD). The authors also supplement their tool with an augmented version of the Self Stimulatory Behavior Dataset (SSBD) and also propose a new label in SSBD Action detection: no-class. The deep learning model with the new dataset is made freely available for easy adoption to the researchers and developers community. An overall accuracy of around 81% was achieved from the proposed pipeline model that is targeted for real-time and hands-free automated diagnosis. All of the source code, data, licenses of use, and other relevant material is made freely available here.
+```
 
-
-## Start using the template
-To start using the template click on `Use this Template`.
-
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
-
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
-
-## Components
-- Teaser video
-- Images Carousel
-- Youtube embedding
-- Video Carousel
-- PDF Poster
-- Bibtex citation
-
-## Tips:
-- The `index.html` file contains comments instructing you what to replace, you should follow these comments.
-- The `meta` tags in the `index.html` file are used to provide metadata about your paper 
-(e.g. helping search engine index the website, showing a preview image when sharing the website, etc.)
-- The resolution of images and videos can usually be around 1920-2048, there rarely a need for better resolution that take longer to load. 
-- All the images and videos you use should be compressed to allow for fast loading of the website (and thus better indexing by search engines). For images, you can use [TinyPNG](https://tinypng.com), for videos you can need to find the tradeoff between size and quality.
-- When using large video files (larger than 10MB), it's better to use youtube for hosting the video as serving the video from the website can take time.
-- Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
-- This project page can also be made into a github pages website.
-- Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
-- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/)
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
